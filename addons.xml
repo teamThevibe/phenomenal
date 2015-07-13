@@ -1,0 +1,31 @@
+<addons>
+	<addon id="skin.phenomenal" name="Phenomenal" version="1.0.4" provider-name="tomer953">
+		<requires>
+			<import	addon="xbmc.gui" version="5.3.0"/>
+			<import addon="script.favourites" version="5.0.0"/>
+			<import addon="script.artwork.downloader" version="12.0.20"/>
+			<import addon="script.globalsearch" version="1.1.1"/>
+			<import addon="service.skin.widgets" version="0.0.27"/>
+			<import addon="service.library.data.provider" version="0.1.1"/>
+			<import addon="script.grab.fanart" version="0.14.1"/>
+			<import addon="script.skinshortcuts" version="0.4.0"/>
+			<import addon="script.extendedinfo" version="2.0.0"/>
+			<import addon="script.toolbox" version="1.0.1"/>
+		</requires>
+		<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p"/>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Phenomenal Skin...</summary>
+			<summary lang="he">PHENOMENAL - אלגנטיות, פשטות ומקצועיות הם הקווים המנחים של הסקין, עם פנומנל תוכלו להינות משלל האפשרויות המתקדמות שקודי מציעה תוך שמירה על סקין נקי ויפיפה</summary>
+			<description lang="en">Phenomenal skin is the best skin ever</description>
+			<description lang="he">PHENOMENAL - אלגנטיות, פשטות ומקצועיות הם הקווים המנחים של הסקין, עם פנומנל תוכלו להינות משלל האפשרויות המתקדמות שקודי מציעה תוך שמירה על סקין נקי ויפיפה</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-ShareAlike 3.0 license</license>
+			<forum>http://kodisrael.net</forum>
+			<website>http://kodisrael.net/phenomenal</website>
+			<email></email>
+			<source></source>
+		</extension>
+	</addon>
+</addons>
