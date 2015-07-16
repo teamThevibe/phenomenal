@@ -347,7 +347,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="0.4.5" provider-name="BigNoid">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="0.5.0" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -503,7 +503,7 @@
     </extension>
 </addon>
 
-<addon id="skin.phenomenal" name="Phenomenal" version="1.0.5" provider-name="tomer953">
+<addon id="skin.phenomenal" name="Phenomenal" version="1.0.6" provider-name="tomer953">
 	<requires>
 		<import	addon="xbmc.gui" version="5.3.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
@@ -513,8 +513,7 @@
 		<import addon="service.library.data.provider" version="0.1.1"/>
 		<import addon="script.grab.fanart" version="0.14.1"/>
 		<import addon="script.skinshortcuts" version="0.4.0"/>
-		<import addon="script.extendedinfo" version="2.0.0"/>
-		<import addon="script.toolbox" version="1.0.1"/>
+		<import addon="script.extendedinfo" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p"/>
