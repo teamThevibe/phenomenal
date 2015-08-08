@@ -526,7 +526,7 @@
     </extension>
 </addon>
 
-<addon id="skin.phenomenal" name="Phenomenal" version="1.0.8" provider-name="tomer953">
+<addon id="skin.phenomenal" name="Phenomenal" version="1.0.9" provider-name="tomer953">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
@@ -543,7 +543,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Phenomenal Skin...</summary>
-		<summary lang="he">PHENOMENAL - אלגנטיות, פשטות ומקצועיות הם הקווים המנחים של הסקין, עם פנומנל תוכלו להינות משלל האפשרויות המתקדמות שקודי מציעה תוך שמירה על סקין נקי ויפיפה</summary>
+		<summary lang="he">פנומנל - סקין ללא פשרות</summary>
 		<description lang="en">Phenomenal skin is the best skin ever</description>
 		<description lang="he">PHENOMENAL - אלגנטיות, פשטות ומקצועיות הם הקווים המנחים של הסקין, עם פנומנל תוכלו להינות משלל האפשרויות המתקדמות שקודי מציעה תוך שמירה על סקין נקי ויפיפה</description>
 		<platform>all</platform>
