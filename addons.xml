@@ -349,6 +349,23 @@
   </extension>
 </addon>
 
+<addon id="script.module.unidecode" name="unidecode" version="0.4.16" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en">Code taken from https://pypi.python.org/pypi/Unidecode</disclaimer>
+		<license>GNU General Public License v.2</license>
+		<website>https://pypi.python.org/pypi/Unidecode</website>
+		<source>https://pypi.python.org/pypi/Unidecode</source>
+	</extension>
+</addon>
+
 <addon id="script.skin.info.service" name="Skin Info Service" version="1.0.1" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -526,7 +543,7 @@
     </extension>
 </addon>
 
-<addon id="skin.phenomenal" name="Phenomenal" version="1.0.9.1" provider-name="tomer953">
+<addon id="skin.phenomenal" name="Phenomenal" version="1.1.0" provider-name="tomer953">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
@@ -535,7 +552,7 @@
 		<import addon="service.skin.widgets" version="0.0.27"/>
 		<import addon="service.library.data.provider" version="0.1.1"/>
 		<import addon="script.grab.fanart" version="0.14.1"/>
-		<import addon="script.skinshortcuts" version="0.5.0.1"/>
+		<import addon="script.skinshortcuts" version="0.5.1"/>
 		<import addon="script.extendedinfo" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
