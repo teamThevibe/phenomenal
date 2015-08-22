@@ -366,6 +366,30 @@
 	</extension>
 </addon>
 
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="0.0.1" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper service for Kodi skins</summary>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+	</extension>
+</addon>
+
 <addon id="script.skin.info.service" name="Skin Info Service" version="1.0.1" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -543,7 +567,7 @@
     </extension>
 </addon>
 
-<addon id="skin.phenomenal" name="Phenomenal" version="1.1.0" provider-name="tomer953">
+<addon id="skin.phenomenal" name="Phenomenal" version="1.1.1" provider-name="tomer953">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
@@ -551,7 +575,7 @@
 		<import addon="script.globalsearch" version="1.1.1"/>
 		<import addon="service.skin.widgets" version="0.0.27"/>
 		<import addon="service.library.data.provider" version="0.1.1"/>
-		<import addon="script.grab.fanart" version="0.14.1"/>
+		<import addon="script.skin.helper.service" version="0.0.1"/>
 		<import addon="script.skinshortcuts" version="0.5.1"/>
 		<import addon="script.extendedinfo" version="3.0.0"/>
 	</requires>
