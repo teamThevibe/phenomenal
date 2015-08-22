@@ -567,7 +567,7 @@
     </extension>
 </addon>
 
-<addon id="skin.phenomenal" name="Phenomenal" version="1.1.1" provider-name="tomer953">
+<addon id="skin.phenomenal" name="Phenomenal" version="1.1.1.1" provider-name="tomer953">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 		<import addon="script.favourites" version="5.0.0"/>
