@@ -365,17 +365,18 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="0.0.10" provider-name="marcelveldt">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="0.0.21" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="script.module.requests" version="2.3.0"/>
 	</requires>
 
+    <extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.python.library" library="default.py" />
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="kodi.context.item" library="contextmenu_serieslevel.py">
 		<item>
@@ -416,7 +417,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="0.5.3.1" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="0.6.1" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
